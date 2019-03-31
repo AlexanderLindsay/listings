@@ -1,0 +1,6 @@
+In no particular order:
+- add some sort of paging for items
+- add sorting
+- add notes with markdown
+- fix package readme
+- unfurl
