@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Listings</title>
+    <meta name="description" content="A cool thing made with Glitch">
+    <link id="favicon" rel="icon" href="https://cdn.glitch.com/7f1e6723-728e-4bec-9d3d-9fab1b00873d%2Ffavicon.ico?1553656919156" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="manifest" href="/manifest.json">
+  </head>
+  <body>
+    <div id="app"></div>
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+  </body>
+  <script src="/auth0.min.js"></script>
+  <script src="/elm.js"></script>
+  <script src="/client.config.js"></script>
+  <script src="/setupElmApp.js"></script>
+  <script type="text/javascript">
+    var app = buildElmApp(Elm.Main, document.querySelector('#app'));
+  </script>
+  <script src="https://button.glitch.me/button.js"></script>
+</html>
