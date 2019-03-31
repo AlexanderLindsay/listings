@@ -1,3 +1,4 @@
 elm-stuff/*
 _temp/*
 client.config.js
+.elm/*

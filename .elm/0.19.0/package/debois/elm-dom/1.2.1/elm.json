@@ -1,1 +1,0 @@
-{"type":"package","name":"debois/elm-dom","summary":"DOM traversal for Elm event-handlers","license":"BSD-3-Clause","version":"1.2.1","exposed-modules":["DOM"],"elm-version":"0.17.0 <= v < 0.18.0","dependencies":{"elm-lang/core":"4.0.0 <= v < 5.0.0","elm-lang/html":"1.0.0 <= v < 2.0.0"},"test-dependencies":{}}
